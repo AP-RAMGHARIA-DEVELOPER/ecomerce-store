@@ -1,38 +1,109 @@
-.App {
+li.nav-item {
+  display: flex;
+}
+.bg-light {
+  height: 4.2rem;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+a.nav-link:hover {
+  color: red !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: fixed;
+}
+nav.navbar.navbar-expand-lg.navbar-light.nav-color {
+  background-color: darkslateblue;
+  z-index: 999;
+}
+
+.bg-light {
+  
+  height: 4.2REM;
+}
+
+button.navbar-toggler {
+  BACKGROUND-COLOR: WHITE;
+}
+
+.image-box{
+  background-image: url(./images/w2.jpg);
+  height: 36rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a-heading {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ml-auto.mb-2.mb-lg-0.search-icons {
   color: white;
+  padding: 1rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+nav.navbar {
+  position: fixed !important;
+  width: 100% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-50 {
+  width: 50%!important;
+}
+img.card-img-top.jatt {
+  width: 16rem;
+}
+
+.container.t-products {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-cart {
+  align-items: center;
+  text-align: center;
+}
+
+.banner-add-1{
+  background-image: url(./images/jatt.jpg);
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+}
+.jatt-2{
+  text-align: center;
+}
+.banner-add-2{
+  background-image: url(./images/b1.jpg);
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-box h1 {
+  text-align: center;
+    /* margin-top: 10rem; */
+    padding-top: 13rem;
+    color: white;
+    FONT-SIZE: 9REM;
+    opacity: .7;
 }
