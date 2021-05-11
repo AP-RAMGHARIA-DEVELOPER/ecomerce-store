@@ -5,22 +5,16 @@ import Hero from './HeroSection';
 import About from './About';
 import Banner from './Banner';
 import Footer from './Footer';
-import {useState,useEffect} from "react";
-import { commerce } from './lib/commerce';
-import Product from './Product'
+import Products from '../src/Products';
+import m1 from './images/m1.png';
+import m2 from './images/m2.png';
+import m3 from './images/m3.png';
+import { Switch , Route } from 'react-router-dom';
+import Men from './Men';
 
 
 const App = () => {
-  const [products,setProducts]= useState()
-
-  const fetchProducts = async () => {
-    const {data} = await commerce.products.list();
-    setProducts(data);
-  }
-  useEffect(()=>{
-    fetchProducts();
-  },[]);
-  console.log(products);
+  
   
   return (
     //BEM
@@ -29,10 +23,30 @@ const App = () => {
       <Hero/>
       <About/>
       <Banner/>
-      <Product products={products}/>
+      <Products
+          imgSrc={m1}
+          title="men striped shirt"
+          price="$35"
+      />
+      <Products
+          imgSrc={m2}
+          title="men denim shirt"
+          price="$45"
+      />
+      <Products
+          imgSrc={m3}
+          title="men floral design"
+          price="$55"
+      />
       <Footer/>
+      <Switch>
+       
+        <Route path="/men" component={Men}/>
+      </Switch>
     </div>
+    
   );
+  
 }
 
 export default App;

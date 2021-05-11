@@ -4,9 +4,6 @@ import a2 from './images/p3.3.jpg';
 import a3 from './images/p4.4.jpg';
 import a4 from './images/p65.jpg';
 
-
-
-
 function About() {
     return (
         
