@@ -1,16 +1,13 @@
 import React from "react";
 import './App.css';
-import Header from './Header';
-import Hero from './HeroSection';
-import About from './About';
-import Banner from './Banner';
-import Footer from './Footer';
-import Products from '../src/Products';
-import m1 from './images/m1.png';
-import m2 from './images/m2.png';
-import m3 from './images/m3.png';
-import { Switch , Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch, 
+} from "react-router-dom";
 import Men from './Men';
+import Women from './Women';
+import Home from './Home';
 
 
 const App = () => {
@@ -18,35 +15,21 @@ const App = () => {
   
   return (
     //BEM
-    <div className="app">
-      <Header/>
-      <Hero/>
-      <About/>
-      <Banner/>
-      <Products
-          imgSrc={m1}
-          title="men striped shirt"
-          price="$35"
-      />
-      <Products
-          imgSrc={m2}
-          title="men denim shirt"
-          price="$45"
-      />
-      <Products
-          imgSrc={m3}
-          title="men floral design"
-          price="$55"
-      />
-      <Footer/>
-      <Switch>
-       
-        <Route path="/men" component={Men}/>
-      </Switch>
+
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path='/' exact component={Home}/>
+          <Route path="/Men"component={Men}/>
+          <Route path="/Women"component={Women}/> 
+        </Switch>
     </div>
+    </Router>
+    
+   
+    
     
   );
   
 }
-
 export default App;
