@@ -3,26 +3,32 @@ import Products from '../src/Products';
 import m1 from './images/m1.png';
 import m2 from './images/m2.png';
 import m3 from './images/m3.png';
+import Header from './Header';
+import Footer from './Footer';
 
 const Men = () => {
+    
     return (
         <div>
-            <h1>hie i ma a jatt</h1>
+            <Header/>
+            <h1>MEN CLOTHING</h1>
             <Products
-          imgSrc={m1}
-          title="men striped shirt"
-          price="$35"
-      />
-      <Products
-          imgSrc={m2}
-          title="men denim shirt"
-          price="$45"
-      />
-      <Products
-          imgSrc={m3}
-          title="men floral design"
-          price="$55"
-      />
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35"
+            />
+            <Products
+                imgSrc={m2}
+                title="men denim shirt"
+                price="$45"
+            />
+            <Products
+                imgSrc={m3}
+                title="men floral design"
+                price="$55"
+            />
+            
+            <Footer/>
         </div>
     )
 }

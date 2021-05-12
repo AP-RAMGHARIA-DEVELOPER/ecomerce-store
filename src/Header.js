@@ -2,6 +2,7 @@ import React from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Link } from 'react-router-dom';
 function Header() {
     return (
 <nav class="navbar navbar-expand-lg navbar-light nav-color">
@@ -15,10 +16,11 @@ function Header() {
         <li class="nav-item">
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" href="#">Home</a>
-          <a class="nav-link px-3" href="#">Men</a>
-          <a class="nav-link px-3" href="#">Women</a>
-          <a class="nav-link px-3" href="#">Asserories</a>
+          <Link class="nav-link px-3" to="/">Home</Link>
+          <Link class="nav-link px-3" to="/Men">Men</Link>
+          <Link class="nav-link px-3" to="/Women">Women</Link>
+          <Link class="nav-link px-3" to="/Accessories">Accessories</Link>
+          
         </li>
         </ul>
         <div class="ml-auto mb-2 mb-lg-0 search-icons">

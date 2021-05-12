@@ -8,6 +8,7 @@ import {
 import Men from './Men';
 import Women from './Women';
 import Home from './Home';
+import Accessories from './Accessories';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/' exact component={Home}/>
           <Route path="/Men"component={Men}/>
           <Route path="/Women"component={Women}/> 
+          <Route path="/Accessories"component={Accessories}/> 
         </Switch>
     </div>
     </Router>
