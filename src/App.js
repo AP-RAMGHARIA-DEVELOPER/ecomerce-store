@@ -9,6 +9,7 @@ import Men from './Men';
 import Women from './Women';
 import Home from './Home';
 import Accessories from './Accessories';
+import Cart from './cart';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/Men"component={Men}/>
           <Route path="/Women"component={Women}/> 
           <Route path="/Accessories"component={Accessories}/> 
+          <Route path="/Cart"component={Cart}/> 
         </Switch>
     </div>
     </Router>

@@ -15,17 +15,17 @@ const Men = () => {
             <Products
                 imgSrc={m1}
                 title="men striped shirt"
-                price="$35"
+                price="$35.99"
             />
             <Products
                 imgSrc={m2}
                 title="men denim shirt"
-                price="$45"
+                price="$45.00"
             />
             <Products
                 imgSrc={m3}
                 title="men floral design"
-                price="$55"
+                price="$55.00"
             />
             
             <Footer/>
