@@ -178,3 +178,7 @@ a.btn.btn-outline-secondary.b1:hover {
     border-radius: .25rem;
     margin: .2rem;
 }
+
+.bg-dark {
+    background-color: #343A75!important;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from "./StateProvide";
 import { getBasketTotal } from './reducer';
+import { Link } from 'react-router-dom';
 
 function SubTotal () {
     const [ {basket} , dispatch ] = useStateValue ();
@@ -26,7 +27,7 @@ function SubTotal () {
             
             /><br></br>
             <div class="d-grid gap-2 col-6 mx-auto proceed  ">
-            <button class="btn btn-primary" type="button">proceed to checkout</button>  
+            <Link class="btn btn-primary" type="button" to="/payment">proceed to checkout</Link>  
 </div>
 
             

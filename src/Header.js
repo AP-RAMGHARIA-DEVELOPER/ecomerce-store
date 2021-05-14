@@ -28,7 +28,6 @@ function Header() {
         </ul>
         <div class="ml-auto mb-2 mb-lg-0 search-icons">
             <SearchIcon/>
-            <AccountCircleIcon/>
             <Link to="/Cart">
             <div className="cart-box">
             <LocalMallIcon/>
