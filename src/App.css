@@ -162,8 +162,8 @@ a.btn.btn-outline-secondary.b1:hover {
   background-color: darkslateblue;
 }
 
-box-f {
-    background-color: darkslateblue;
+.box-f {
+    background-color: darkslateblue !important;
 }
 
 .card {
