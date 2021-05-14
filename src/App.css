@@ -161,3 +161,20 @@ footer.bg-dark.text-center.text-white {
 a.btn.btn-outline-secondary.b1:hover {
   background-color: darkslateblue;
 }
+
+box-f {
+    background-color: darkslateblue;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: .2rem;
+}
