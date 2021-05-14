@@ -11,22 +11,107 @@ const Men = () => {
     return (
         <div>
             <Header/>
-            <h1>MEN CLOTHING</h1>
-            <Products
+            <div className="men-heading text-center">
+                    <h1>Men Products</h1>
+                    <hr className="w-25 mx-auto"></hr>
+                </div>
+
+                <div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+    <Products
                 imgSrc={m1}
                 title="men striped shirt"
                 price="$35.99"
             />
-            <Products
-                imgSrc={m2}
-                title="men denim shirt"
-                price="$45.00"
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
             />
-            <Products
-                imgSrc={m3}
-                title="men floral design"
-                price="$55.00"
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
             />
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={m1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+</div>
+            
+            
             
             <Footer/>
         </div>

@@ -10,23 +10,106 @@ const Women = () => {
     return (
         <div>
            <Header/>
-            <h1>MEN CLOTHING</h1>
-            <Products
+           <div className="men-heading text-center">
+                    <h1>Women Products</h1>
+                    <hr className="w-25 mx-auto"></hr>
+                </div>
+                <div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+    <Products
                 imgSrc={w1}
-                title=" women leather jacket"
-                price="$35"
+                title="men striped shirt"
+                price="$35.99"
             />
-            <Products
-                imgSrc={w2}
-                title="women black top"
-                price="$45"
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
             />
-            <Products
-                imgSrc={w6}
-                title="women long  sweatshirt"
-                price="$55"
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
             />
-            <Footer/>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+    <div class="col">
+    <Products
+                imgSrc={w1}
+                title="men striped shirt"
+                price="$35.99"
+            />
+    </div>
+  </div>
+            
+        </div>
+        <Footer/>
         </div>
     )
 }

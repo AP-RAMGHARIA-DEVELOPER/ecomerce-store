@@ -3,7 +3,8 @@ import a6 from './images/c-1.webp';
 import a7 from './images/c-2.webp';
 import a8 from './images/c-3.webp';
 import a9 from './images/c4.webp';
-import a10 from './images/banner3.jpg';
+import { Link } from 'react-router-dom';
+
 
 function Banner() {
     return (
@@ -18,8 +19,8 @@ function Banner() {
                 <p>How did we create a super soft tee shirt that also happens to reduce odor and keep<br></br> you cool? With nature, naturally.</p>
             </div>
             <div className="jatt-2">
-            <a href="#" class="btn btn-primary ">SHOP MEN</a>
-            <a href="#" class="btn btn-primary ">SHOP WOMEN</a>
+            <Link type="button" class="btn btn-primary btn-lg b1" to="/Men">Shop Men</Link>
+            <Link type="button" class="btn btn-secondary btn-lg b2" to="/Women">Shop Women</Link>
             </div>
             
             </div>
@@ -34,8 +35,9 @@ function Banner() {
     <div class="card">
       <img src={a6} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Men Shoes</h5>
+        <p class="card-text">Crafted with timeless designs and modern detailing, Fumomodo men's shoes feature sleek looks for relaxed, everyday styling or formal occasions.</p>
+        <Link type="button" class="btn btn-outline-secondary b1" to="/Accessories">Shop Now</Link>
       </div>
     </div>
   </div>
@@ -43,8 +45,9 @@ function Banner() {
     <div class="card">
       <img src={a7} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Women Shoes</h5>
+        <p class="card-text">Crafted with timeless designs and modern detailing, Fumomodo men's shoes feature sleek looks for relaxed, everyday styling or formal occasions.</p>
+        <Link type="button" class="btn btn-outline-secondary b1" to="/Accessories">Shop Now</Link>
       </div>
     </div>
   </div>
@@ -52,8 +55,9 @@ function Banner() {
     <div class="card">
       <img src={a8} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Men Jackets</h5>
+        <p class="card-text">Protect yourself from the elements with durable and stylish men's outerwear. Shop vintage-inspired designs including the water resistant parka, denim jean trucker.</p>
+        <Link type="button" class="btn btn-outline-secondary b1" to="/Accessories">Shop Now</Link>
       </div>
     </div>
   </div>
@@ -61,8 +65,9 @@ function Banner() {
     <div class="card">
       <img src={a9} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Women Longwear</h5>
+        <p class="card-text">Shop sweatshirts, hoodies, and crewnecks for women featuring knit, cotton, cropped & more in a variety of colors from the official Fumomodo store.</p>
+        <Link type="button" class="btn btn-outline-secondary b1" to="/Accessories">Shop Now</Link>
       </div>
     </div>
   </div>
@@ -77,7 +82,7 @@ function Banner() {
                 <p>We craft with planet-friendly natural materials, like merino wool and <br></br>eucalyptus trees, because they're our best chance for a sustainable future.</p>
             </div>
             <div className="jatt-2">
-            <a href="#" class="btn btn-primary ">SEE HOW</a>
+            <button href="#" class="btn btn-primary b1">See How</button>
             </div>
             
             </div>

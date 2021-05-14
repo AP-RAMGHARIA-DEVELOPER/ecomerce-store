@@ -6,7 +6,7 @@ import { getBasketTotal } from './reducer';
 function SubTotal () {
     const [ {basket} , dispatch ] = useStateValue ();
     return (
-        <div className="subTotal">
+        <div className="subTotal  shadow align-items-center">
             <CurrencyFormat
              renderText={(value) => (
                     <>
@@ -24,8 +24,11 @@ function SubTotal () {
                 thousandSeparator={true}
                 prefix={"$"}
             
-            />
-            <button>proceed to checkout</button>
+            /><br></br>
+            <div class="d-grid gap-2 col-6 mx-auto proceed  ">
+            <button class="btn btn-primary" type="button">proceed to checkout</button>  
+</div>
+
             
         </div>
     )

@@ -26,7 +26,7 @@ const Products = (props) => {
                     <div class="card-body">
                     <h5 class="card-title">{props.title}</h5>
                     <p class="card-text">{props.price}</p>
-                    <button href="#" class="btn btn-primary"  onClick={addToBasket}>Go somewhere</button>
+                    <button href="#" class="btn btn-primary"  onClick={addToBasket}>Add To Cart</button>
                 </div>
             </div>
             </div>

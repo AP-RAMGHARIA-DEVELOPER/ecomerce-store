@@ -30,7 +30,7 @@ function Header() {
             <SearchIcon/>
             <AccountCircleIcon/>
             <Link to="/Cart">
-              <div className="cart-box">
+            <div className="cart-box">
             <LocalMallIcon/>
             <span>{basket?.length}</span>
             </div>

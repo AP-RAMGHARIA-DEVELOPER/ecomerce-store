@@ -107,3 +107,57 @@ img.card-img-top.jatt {
     FONT-SIZE: 9REM;
     opacity: .7;
 }
+
+.basket-heading.text-center {
+  /* margin-top: 5rem; */
+  padding-top: 8rem;
+}
+
+.subTotal {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.proceed {
+  padding-top: .6rem;
+}
+
+.container.product.box {
+  margin-top: 3rem;
+}
+
+.men-heading.text-center {
+  padding-top: 8rem;
+}
+button.btn.btn-primary {
+  background-color: darkslateblue;
+}
+a.btn.btn-primary.mx-auto {
+  /* background-color: darkblue; */
+  background-color: darkslateblue !important;
+}
+
+a.btn.btn-primary.b1 {
+  background-color: darkslateblue !important;
+}
+a.btn.btn-primary.b2 {
+  background-color: darkslateblue !important;
+}
+footer.bg-dark.text-center.text-white {
+  margin-top: 3rem;
+  
+}
+
+.b2 {
+  background-color: darkslateblue !important;
+}
+
+.b2 {
+  margin: .6rem !important;
+  background-color: darkslateblue !important;
+}
+a.btn.btn-outline-secondary.b1:hover {
+  background-color: darkslateblue;
+}
